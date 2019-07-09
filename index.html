@@ -1,25 +1,171 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | L1_apple</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGlBuild.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">L1_apple</div>
-      </div>
-    </div>
-  </body>
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Unity Practices</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload homepage">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
+			</header>
+		</div>
+
+		<!-- Banner -->
+		<div id="banner-wrapper">
+			<div id="banner" class="box container">
+				<div class="row">
+					<div class="col-7 col-12-medium">
+						<h2>Unity Practices.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Features -->
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+									
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="L2_LittleGame_WebGlBuild/index.html" class="image featured"><img
+									src="images/L2_LittleGame.png" alt="" /></a>
+							<div class="inner">
+								<p>Little game，丟接球。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/L2_LittleGame"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+						<!-- Box -->
+						<section class="box feature">
+							<a href="L3_FlappyBird_WebGlBuild/index.html" class="image featured"><img
+									src="images/L3_FlappyBird.png" alt="" /></a>
+							<div class="inner">
+								<p>Flappy Bird 仿作。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/L3_FlappyBird"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="L4_MakeAGame_WebGlBuild/index.html" class="image featured"><img
+									src="images/L4_MakeAGame.png" alt="" /></a>
+							<div class="inner">
+								<p>闖關小遊戲。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/L4_MakeAGame"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="EX_Maze_WebGlBuild/index.html" class="image featured"><img src="images/EX_Maze.png"
+									alt="" /></a>
+							<div class="inner">
+								<p>迷宮小球。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/EX_Maze"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="EX_3D_Physic_WebGlBuild/index.html" class="image featured"><img src="images/EX_3D_Physic.png"
+									alt="" /></a>
+							<div class="inner">
+								<p>物理組件練習，骨牌機關。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/EX_3D_Physic"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="EX_Terrain_WebGlBuild/index.html" class="image featured"><img
+									src="images/EX_Terrain.png" alt="" /></a>
+							<div class="inner">
+								<p>Terrain練習。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/EX_Terrain"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+					<div class="col-4 col-12-medium">
+
+						<!-- Box -->
+						<section class="box feature">
+							<a href="EX_LightSample_WebGlBuild/index.html" class="image featured"><img
+									src="images/EX_LightSample.png" alt="" /></a>
+							<div class="inner">
+								<p>全局光照練習(screenshot)。</p>
+								<a href="https://github.com/bys42/UnityPractice/tree/master/EX_LightSample"
+									class="image featured">source</a>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer-wrapper">
+			<footer id="footer" class="container">
+				<div class="row">
+					<div class="col-12">
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

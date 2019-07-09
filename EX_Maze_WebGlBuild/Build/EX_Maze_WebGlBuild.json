@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "EX_Maze",
+"dataUrl": "EX_Maze_WebGlBuild.data.unityweb",
+"asmCodeUrl": "EX_Maze_WebGlBuild.asm.code.unityweb",
+"asmMemoryUrl": "EX_Maze_WebGlBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "EX_Maze_WebGlBuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
